@@ -1,6 +1,6 @@
 // api/mobile-money.js — Webhook SMS Gateway Mobile Money (Supabase)
 // ============================================================
-const { getDb, cors, check } = require('./_supabase');
+const { getDb, cors, check } = require('./supabase-client');
 
 const WEBHOOK_SECRET = process.env.MOBILE_MONEY_WEBHOOK_SECRET || 'ds_webhook_secret_2024';
 

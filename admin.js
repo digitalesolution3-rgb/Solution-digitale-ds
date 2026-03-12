@@ -1,5 +1,5 @@
 // api/admin.js — Actions admin (Supabase)
-const { getDb, hash, cors, check } = require('./_supabase');
+const { getDb, hash, cors, check } = require('./supabase-client');
 
 const ADMIN_TOKEN = process.env.ADMIN_SECRET || 'DIGITALE_ADMIN';
 

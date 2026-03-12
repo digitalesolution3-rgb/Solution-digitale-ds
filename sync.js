@@ -1,5 +1,5 @@
 // api/sync.js — Sauvegarde données marchand → Supabase
-const { getDb, cors, check } = require('./_supabase');
+const { getDb, cors, check } = require('./supabase-client');
 
 const ALLOWED = ['products', 'sales', 'clients', 'configs'];
 

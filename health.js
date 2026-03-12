@@ -22,7 +22,7 @@ module.exports = async (req, res) => {
 
   // Test 4 : charger le helper _supabase
   try {
-    require('./_supabase');
+    require('./supabase-client');
     checks.helper = 'OK';
   } catch(e) {
     checks.helper = 'ERREUR: ' + e.message;

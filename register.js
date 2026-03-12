@@ -1,5 +1,5 @@
 // api/register.js — Inscription nouveau marchand (Supabase)
-const { getDb, hash, cors, check } = require('./_supabase');
+const { getDb, hash, cors, check } = require('./supabase-client');
 
 module.exports = async (req, res) => {
   cors(res);
