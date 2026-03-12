@@ -3,13 +3,12 @@
   "version": "3.0.0",
   "description": "Digitale Solution POS — Backend Supabase + Mobile Money Gateway",
   "engines": {
-    "node": "20.x"
+    "node": "18.x"
   },
   "dependencies": {
-    "@supabase/supabase-js": "2.39.8"
+    "@supabase/supabase-js": "^2.39.0"
   },
   "scripts": {
-    "build": "echo 'Build OK'",
     "dev": "vercel dev",
     "deploy": "vercel --prod"
   }
